@@ -20,6 +20,7 @@ window.onload = function() {
 
         function receiveMessage(e){
             messageEle.innerHTML = "Message Received: " + e.data;
+            console.log(e.data);
         }
 
 	// Add an event listener that will execute the sendMessage() function
