@@ -15,7 +15,7 @@ window.onload = function() {
 		e.preventDefault();
 
 		// Send a message with the text 'Hello Treehouse!' to the receiver window.
-		receiver.postMessage('Hello B', 'http://local.cuboid.io');
+		receiver.postMessage('Hello B', window.location.origin);
 	}
 
         function receiveMessage(e){
